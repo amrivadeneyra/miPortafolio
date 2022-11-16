@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Menu enncabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Manuel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- seccion inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.png" alt="">
+            </div>
+            <h1>MANUEL RIVADENEYRA</h1>
+            <h2>Systems Engineer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p><span>Hola, soy Manuel Rivadeneyra.</span> Soy una persona muy dedicada y con enfoque en los objetivos, desarollo proyectos a partir lecturas, visualizaciones, y conocientos previos para definir una ruta clara. Cuento con gran imaginación
+                e iniciativa para desarrollar ideas nuevas y con facilidad para tomar decisiones. Gran capacidad de trabajo en equipo, integración, flexibilidad, dinamico y habilidad para enfrentar situiaciones de desafío y superación.
+            </p>
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong> 01-08-2002
+                        </li>
+                        <li>
+                            <strong>Phone</strong> 923***362
+                        </li>
+                        <li>
+                            <strong>Email</strong> a***********i@autonoma.edu.pe amanuelrivadeneyra@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong> www.example.com
+                        </li>
+                        <li>
+                            <strong>Address</strong> Lima, Perú.
+                        </li>
+                        <li>
+                            <strong>Job Aspiration</strong> <span>Junior Developer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>
+                            Español (Nativo)
+                        </li>
+                        <li>
+                            Inglés (Básico)
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Games</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-person-walking"></i>
+                            <span>Walk</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Develop</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Books</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-light fa-camera-movie"></i>
+                            <span>Movie</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"><a href="https://blogandweb.com/wp-content/uploads/2013/10/archivo.pdf" download><span class="overlay"></span></a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Seccion skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- TEchnical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>58%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Discipline</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion cv-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <span class="casa">Universidad Autónoma del Perú</span>
+                        <span class="fecha">Marzo, 2019 - presente</span>
+                        <p>Actualmente cursando el 5to ciclo de la carrera de Ingeniería de Sistemas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <h3>Awards</h3>
+                    <div class="item izq">
+                        <h4>III CODE HACKATHON - CONIISUA 2019</h4>
+                        <span class="casa">Universidad Autónoma del Perú</span>
+                        <span class="fecha">2019</span>
+                        <p>Segundo puesto en la Competición de la III CODE HACKATHON - CONIISUA 2019 - "Turismo e innovación en Lima Sur" </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <h3>Certifications</h3>
+                    <div class="item izq">
+                        <h4>DATABASE DESIGN AND PROGRAMMING WITH SQL</h4>
+                        <span class="casa">Universidad Autónoma del Perú</span>
+                        <span class="fecha">Febrero - 2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>JAVA PROGRAMMING</h4>
+                        <span class="casa">Universidad Autónoma del Perú</span>
+                        <span class="fecha">Enero - 2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col derecha">
+                    <h3>Projects</h3>
+                    <div class="item der">
+                        <h4>Future Water</h4>
+                        <span class="casa">INNOVUA</span>
+                        <span class="fecha">2019</span>
+                        <p>El proyecto parte de la gran preocupación que tenemos por la falta de acceso al servicio de agua potable en la mayoría de lugares en nuestro país. El proyecto está centrado en la región Sierra del Perú, así como también en algunas
+                            zonas del Perú y Lima Metropolitana. La idea general es implementar un sistema de optimización en las zonas en donde más es escasa el agua, como en viviendas u lugares en donde las personas necesitan de ello. Además, poder
+                            implementar también bebederos saludables en zonas públicas y la de optimizar los regados respecto a las áreas verdes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Turismo e innovación en Lima Sur</h4>
+                        <span class="casa">INNOVUA</span>
+                        <span class="fecha">2019</span>
+                        <p>Es un aplicativo móvil que contribuirá a la reactivación del sector Turismo nacional, a través del acercamiento de turistas peruanos a una oferta variada de destinos con diversas opciones de hoteles, restaurantes, centros turísticos,
+                            transporte, puntos de compras, acceso a bienestar médico, etc.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion portafolio-->
+    <section class="portfolio" id="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje  <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5515.116984816976!2d-76.97253998019308!3d-12.19559729445411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1668572946395!5m2!1ses-419!2spe" width="400" height="300" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i> San Juan de Miraflores - Lima, Perú.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i> Movil: 923***362
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i> Email: arivadeneyrai@autonoma.edu.pe
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
