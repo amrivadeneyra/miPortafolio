@@ -125,6 +125,9 @@ html {
     background-color: #47959f;
 }
 
+
+/* about me*/
+
 .sobremi {
     background-color: #1e1e1e;
     color: #fff;
@@ -220,6 +223,10 @@ html {
 .sobremi .fila .col .contenedor-intereses .interes i {
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+.sobremi a {
+    text-decoration: none;
 }
 
 .sobremi button {
@@ -335,7 +342,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 20%;
+        width: 10%;
     }
 }
 
@@ -405,7 +412,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 25%;
+        width: 15%;
     }
 }
 
@@ -646,6 +653,7 @@ html {
 
 .portfolio .galeria .proyecto img {
     width: 100%;
+    height: 190px;
     display: block;
 }
 
