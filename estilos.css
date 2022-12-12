@@ -864,6 +864,9 @@ footer .arriba {
 }
 
 @media screen and (max-width:700px) {
+    .inicio {
+        display: flex;
+    }
     .sobremi .fila {
         display: block;
     }
