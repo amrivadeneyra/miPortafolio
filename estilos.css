@@ -151,6 +151,9 @@ html {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    text-align: justify;
+    line-height: 2;
+    word-spacing: 2px;
 }
 
 .sobremi .contenido-seccion p span {
@@ -559,6 +562,8 @@ html {
 
 .curriculum .fila .item p {
     line-height: 24px;
+    text-align: justify;
+    line-height: 2;
 }
 
 .curriculum .fila .izq {
