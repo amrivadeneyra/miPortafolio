@@ -346,7 +346,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 40%;
+        width: 70%;
     }
 }
 
@@ -360,7 +360,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 78%;
+        width: 80%;
     }
 }
 
@@ -374,7 +374,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -402,7 +402,7 @@ html {
         width: 0%;
     }
     100% {
-        width: 43%;
+        width: 30%;
     }
 }
 
@@ -416,7 +416,48 @@ html {
         width: 0%;
     }
     100% {
-        width: 15%;
+        width: 35%;
+    }
+}
+
+.skills .skill .angular {
+    width: 0%;
+    animation: 2s angular forwards;
+}
+
+@keyframes angular {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills .skill .mongoDB {
+    width: 0%;
+    animation: 2s mongoDB forwards;
+}
+@keyframes mongoDB {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.skills .skill .golang {
+    width: 0%;
+    animation: 2s golang forwards;
+}
+
+@keyframes golang {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
     }
 }
 
